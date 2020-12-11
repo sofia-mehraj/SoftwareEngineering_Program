@@ -72,13 +72,13 @@ int main ()
 	cout<<"Enter the Imaginary Part: ";
 	cin>> num2;
 	ComplexNumber variable1(num1,num2);
+	
 	cout<<endl<<"***Second Variable***"<<endl;
 	double num3,num4;
 	cout<<"Enter the Real Part: ";
 	cin>> num3;
 	cout<<"Enter the Imaginary Part: ";
 	cin>> num4;
-	
 	ComplexNumber variable2(num3,num4);
 
 	double Real;
